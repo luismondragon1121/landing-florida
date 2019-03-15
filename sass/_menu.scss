@@ -1,0 +1,17 @@
+#nav-menu
+{
+    background-color: #001f5b !important;
+    #navbarSupportedContent
+    {
+     ul{
+        margin: 0 auto;
+        display: inline-flex;
+        position: relative;
+        margin-top: 0px;
+        li .nav-item
+        {
+            color: white !important;
+        }
+        }
+    }
+}

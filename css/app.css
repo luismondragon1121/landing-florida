@@ -6,6 +6,7 @@
   background-image: url(../img/slide2.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   width: 100%;
   height: 600px;
@@ -21,22 +22,27 @@
     color: white;
     margin: 0 auto;
     border: 1px solid white;
-    margin-top: 50px; }
+    margin-top: 80px; }
 
 /*-------------------
  cuatro secciones
  ---------------------*/
 #four-section {
-  background-color: #005c9b;
+  background-color: #001f5b;
   width: 100%;
   position: relative; }
+  #four-section .bloque2 {
+    background-color: #003da6; }
+  #four-section .bloque3 {
+    background-color: #005cb9; }
+  #four-section .bloque4 {
+    background-color: #0082ca; }
   #four-section img {
     width: 100%;
     padding: 10px 0px; }
   #four-section .txt-fsection {
     color: white;
     text-align: center;
-    background-color: #005c9b;
     padding: 10px; }
   #four-section ul li {
     display: inline-block;
@@ -47,52 +53,227 @@
 /*-------------------
  fin cuatro secciones
  ---------------------*/
+/*-----------------------
+    seccion imagen texto
+-------------------------*/
+#img-txt {
+  position: relative;
+  background-color: white; }
+  #img-txt .slider-img {
+    padding: 100px 30px; }
+  #img-txt .slider-txt {
+    padding: 100px 0px;
+    text-align: left;
+    margin-right: -56px;
+    max-width: 455px; }
+    #img-txt .slider-txt h2 {
+      color: #00ABCC;
+      padding-bottom: 10px; }
+    #img-txt .slider-txt h2::after {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 2px;
+      background-color: #00ABCC;
+      display: block;
+      margin-left: 149px; }
+    #img-txt .slider-txt p {
+      text-align: justify; }
+
+/*---------------------------
+    fin section imagen texto
+-----------------------------*/
+/*---------------------------------
+        two section
+----------------------------------*/
 #two-section {
   position: relative; }
   #two-section .apartado-uno {
-    background-color: #00ABCC; }
-    #two-section .apartado-uno .txt-rotate {
-      color: white;
-      position: relative;
-      -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      margin-left: 0px; }
+    background-color: #0082ca;
+    padding: 40px;
+    margin-bottom: 10px; }
     #two-section .apartado-uno .txt-rotateuno {
       color: white;
+      text-align: center;
+      padding: 50px 0px; }
+    #two-section .apartado-uno .linea {
+      height: 1px;
+      width: 69px;
+      background-color: white;
+      left: 40%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px; }
+    #two-section .apartado-uno .btn-primary {
       border: 1px solid white;
-      margin-top: 70px;
-      z-index: 1;
-      margin-right: -10px; }
-      #two-section .apartado-uno .txt-rotateuno .txt-rotateuno-o {
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bold;
-        padding-top: 40px;
-        padding: 100px 20px 100px;
-        position: relative;
-        color: white;
-        margin: 0 auto;
-        border: 1px solid white;
-        margin-top: 50px; }
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      background-color: transparent; }
+    #two-section .apartado-uno .txt-rotateuno-o {
+      color: white;
+      text-align: center;
+      padding: 30px; }
   #two-section .apartado_dos {
-    position: relative;
-    margin-top: 50px; }
-    #two-section .apartado_dos ul {
-      list-style: none; }
-      #two-section .apartado_dos ul li {
-        color: white; }
-      #two-section .apartado_dos ul .fas {
-        padding: 20px;
-        font-size: 20px; }
+    background-color: #005cb9;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 10px; }
+    #two-section .apartado_dos .txt-rotatedos {
+      color: white;
+      text-align: center;
+      padding: 50px 0px; }
+    #two-section .apartado_dos .linea {
+      height: 1px;
+      width: 69px;
+      background-color: white;
+      left: 40%;
+      display: block;
+      margin: 0 auto;
+      margin-top: 10px; }
+    #two-section .apartado_dos .btn-primary {
+      border: 1px solid white;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      background-color: transparent; }
+    #two-section .apartado_dos .txt-rotateuno-dos {
+      color: white;
+      text-align: center; }
 
 /*--------------------
         two section
 ------------------------*/
+#formulario {
+  background-image: url(../img/bg-x2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  position: relative; }
+  #formulario form {
+    border: 5px solid white;
+    padding: 20px 20px;
+    margin-top: 50px; }
+    #formulario form h2 {
+      color: white;
+      padding: 30px 0px;
+      text-align: left; }
+    #formulario form h2::after {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 1px;
+      background-color: white;
+      display: block;
+      margin-left: 135px; }
+    #formulario form label {
+      color: white; }
+    #formulario form input {
+      border: none;
+      background-color: transparent;
+      color: white;
+      border-bottom: 1px solid white; }
+    #formulario form textarea {
+      border: none;
+      background-color: transparent;
+      color: white;
+      border-bottom: 1px solid white; }
+    #formulario form .invalid-feedback {
+      color: white; }
+    #formulario form ::-webkit-input-placeholder {
+      color: #001f5b; }
+    #formulario form :-ms-input-placeholder {
+      color: #001f5b; }
+    #formulario form ::-ms-input-placeholder {
+      color: #001f5b; }
+    #formulario form ::placeholder {
+      color: #001f5b; }
+    #formulario form .btn-primary {
+      border: 1px solid white;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: white;
+      background-color: transparent; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 768px) {
+  #two-section .apartado-uno .txt-rotateuno {
+    color: white;
+    top: 10px;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px; }
+    #two-section .apartado-uno .txt-rotateuno h1 {
+      padding-top: 20px;
+      text-align: center;
+      padding-top: 10px; }
+    #two-section .apartado-uno .txt-rotateuno .txt-rotateuno-o {
+      font-size: 21px;
+      padding: 0px 10px 35px;
+      position: relative;
+      color: white;
+      margin: 0 auto;
+      margin-top: 0;
+      text-align: left; } }
+
+@media (max-width: 576px) {
+  #parallax-inicio {
+    height: 400px; }
+    #parallax-inicio p {
+      padding: 0px; }
+  #img-txt {
+    position: relative;
+    background-color: white; }
+    #img-txt .slider-img {
+      padding: 32px 10px; }
+    #img-txt .slider-txt {
+      padding: 0px 17px; }
+      #img-txt .slider-txt p {
+        padding: 17px; }
+  #two-section .apartado-uno .txt-rotateuno {
+    color: white;
+    top: 10px;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px; }
+    #two-section .apartado-uno .txt-rotateuno h1 {
+      padding-top: 20px;
+      text-align: center;
+      padding-top: 10px; }
+    #two-section .apartado-uno .txt-rotateuno .txt-rotateuno-o {
+      font-size: 21px;
+      padding: 0px 10px 35px;
+      position: relative;
+      color: white;
+      margin: 0 auto;
+      margin-top: 0;
+      text-align: left; } }
+
+#nav-menu {
+  background-color: #001f5b !important; }
+  #nav-menu #navbarSupportedContent ul {
+    margin: 0 auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    position: relative;
+    margin-top: 0px; }
+    #nav-menu #navbarSupportedContent ul li .nav-item {
+      color: white !important; }
+
 * {
   margin: 0;
   padding: 0; }
-
-body {
-  background-color: #333333; }

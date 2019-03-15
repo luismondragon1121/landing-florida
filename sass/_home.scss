@@ -9,6 +9,7 @@
     background-image: url(../img/slide2.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     width: 100%;
     height: 600px;;
@@ -25,7 +26,7 @@
         color: white;
         margin: 0 auto;
         border: 1px solid white;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 }
 
@@ -34,9 +35,21 @@
  ---------------------*/
  #four-section
  {
-     background-color: #005c9b;
+     background-color: #001f5b;
      width: 100%;
      position: relative;
+     .bloque2
+     {
+        background-color:#003da6;
+     }
+     .bloque3
+     {
+        background-color:#005cb9;
+     }
+     .bloque4
+     {
+        background-color:#0082ca;
+     }
      img 
      {
          width: 100%;
@@ -46,7 +59,6 @@
      {
          color: white;
          text-align: center;
-         background-color: #005c9b;
          padding: 10px;
      }
      ul li 
@@ -63,61 +75,320 @@
 /*-------------------
  fin cuatro secciones
  ---------------------*/
+
+/*-----------------------
+    seccion imagen texto
+-------------------------*/
+#img-txt
+{
+    position: relative;
+    background-color: white;
+    .slider-img
+    {
+        padding: 100px 30px;
+    }
+    .slider-txt
+    {
+        padding: 100px 0px;
+        text-align: left;
+        margin-right: -56px;
+        max-width: 455px;
+        h2 
+        {
+            color: #00ABCC;
+            padding-bottom: 10px;
+        }
+        h2::after
+        {
+            content: "";
+            position: absolute;
+            width: 31px;
+            height: 2px;
+            background-color: #00ABCC;
+            display: block;
+            margin-left: 149px;
+        }
+        
+        p 
+        {
+            text-align: justify;
+        }
+    }
+}
+
+/*---------------------------
+    fin section imagen texto
+-----------------------------*/
+
+/*---------------------------------
+        two section
+----------------------------------*/
+
  #two-section
  {
      position: relative;
      .apartado-uno
-     {
-         background-color: #00ABCC;
-         .txt-rotate
-         {
-            color: white;
-            position: relative;
-            transform: rotate(-90deg);
-            margin-left: 0px;
-         }
-         .txt-rotateuno
-         {
-             color:white;
-             border: 1px solid white;
-             margin-top: 70px;
-             z-index: 1;
-             margin-right: -10px;
-             .txt-rotateuno-o
-            {
-                text-align: center;
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    padding-top: 40px;
-    padding: 100px 20px 100px;
-    position: relative;
-    color: white;
-    margin: 0 auto;
-    border: 1px solid white;
-    margin-top: 50px;
-            }
-         }
-     }
-     .apartado_dos
-     {
-         position: relative;
-         margin-top: 50px;
-        ul
+    {
+        background-color: #0082ca;
+        padding: 40px;
+        margin-bottom: 10px;
+        .txt-rotateuno
         {
-            list-style: none;
-            li 
-            {
-                color: white;
-            }
-            .fas
-            {
-                padding: 20px;
-                font-size: 20px;
-            }
+            color: white;
+            text-align: center;
+            padding: 50px 0px;
+        }    
+        .linea
+        {
+            height: 1px;
+            width: 69px;
+            background-color: white;
+            left: 40%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        } 
+        .btn-primary
+        {
+            border: 1px solid white;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            background-color: transparent;
         }
-     }
- }
+        .txt-rotateuno-o
+        {
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+    }
+    .apartado_dos
+    {
+        background-color: #005cb9;
+        width: 100%;
+        padding: 40px;
+        margin-bottom: 10px;
+    
+        .txt-rotatedos
+        {
+            color: white;
+            text-align: center;
+            padding: 50px 0px;
+        }    
+        .linea
+        {
+            height: 1px;
+            width: 69px;
+            background-color: white;
+            left: 40%;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        } 
+        .btn-primary
+        {
+            border: 1px solid white;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            background-color: transparent;
+        }
+        .txt-rotateuno-dos
+        {
+            color: white;
+            text-align: center;
+        }
+    }   
+}
+
  /*--------------------
         two section
 ------------------------*/
+#formulario
+{
+    background-image: url(../img/bg-x2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    form 
+    {
+        border: 5px solid white;
+        padding: 20px 20px;
+        margin-top: 50px;
+        h2 
+        {
+            color: white;
+            padding: 30px 0px;
+            text-align: left;
+        }
+        h2::after
+        {
+            content: "";
+            position: absolute;
+            width: 31px;
+            height: 1px;
+            background-color: white;
+            display: block;
+            margin-left: 135px;
+        }
+        label 
+        {
+            color: white;
+        }
+        input 
+        {
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        textarea
+        {
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        .invalid-feedback
+        {
+            color: white;
+        }
+        ::placeholder 
+        { 
+            color: #001f5b; 
+        }
+           .btn-primary
+        {
+            border: 1px solid white;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            color: white;
+            background-color: transparent;
+        }
+    }
+}
+
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+    
+}
+
+@media (max-width:992px)
+{
+    
+}
+
+
+@media (max-width:768px)
+{
+    #two-section
+    {
+        .apartado-uno
+       {
+           .txt-rotateuno
+           {
+            color: white;
+            top: 10px;
+            position: relative;
+            display: block;
+            margin: auto;
+            width: 100%;
+            padding-bottom: 10px;
+                 h1
+                {
+                   padding-top: 20px;
+                   text-align: center;
+                   padding-top: 10px;
+                  
+                }
+                .txt-rotateuno-o
+               {
+                font-size: 21px;
+                padding: 0px 10px 35px;
+                position: relative;
+                color: white;
+                margin: 0 auto;
+                margin-top: 0;
+                text-align: left;
+               }
+           }
+       }
+    }
+}
+
+
+@media (max-width:576px)
+{
+    #parallax-inicio
+    {
+        height: 400px;
+        p
+        {
+            padding:0px
+        }
+    }
+
+    #img-txt
+    {
+        position: relative;
+        background-color: white;
+        .slider-img
+        {
+            padding: 32px 10px;
+        }
+        .slider-txt
+        {
+            padding: 0px 17px;
+            p 
+            {
+                padding: 17px;
+            }
+        }
+    }
+    #two-section
+    {
+        .apartado-uno
+       {
+           .txt-rotateuno
+           {
+            color: white;
+            top: 10px;
+            position: relative;
+            display: block;
+            margin: auto;
+            width: 100%;
+            padding-bottom: 10px;
+                 h1
+                {
+                   padding-top: 20px;
+                   text-align: center;
+                   padding-top: 10px;
+                  
+                }
+                .txt-rotateuno-o
+               {
+                font-size: 21px;
+                padding: 0px 10px 35px;
+                position: relative;
+                color: white;
+                margin: 0 auto;
+                margin-top: 0;
+                text-align: left;
+               }
+           }
+       }
+    }
+}

@@ -19,28 +19,37 @@
 </head>
 <body>
 <!--menu-->  
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<nav id="nav-menu" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand text-white"" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active ">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white"" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white" dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
         </div>
-</nav>
+      </nav>
 <!--fin menu -->
 
 <!--primera seccion-->
@@ -70,9 +79,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 bloque2">
                 <div>
-                    <img src="img/bloques1.jpg" alt="">
+                    <img src="img/bloques2.jpg" alt="">
                 </div>
                 <div class="txt-fsection">
                     <p>
@@ -80,9 +89,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 bloque3">
                 <div>
-                    <img src="img/bloques1.jpg" alt="">
+                    <img src="img/bloques3.jpg" alt="">
                 </div>
                 <div class="txt-fsection">
                     <p>
@@ -90,9 +99,9 @@
                     </p>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 bloque4">
                 <div>
-                    <img src="img/bloques1.jpg" alt="">
+                    <img src="img/bloques4.jpg" alt="">
                 </div>
                 <div class="txt-fsection">
                     <p>
@@ -105,82 +114,113 @@
 </section>
 <!--end four section-->
 
+
+<!--section imagen y texto-->
+<section id="img-txt">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 slider-img">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 slider-txt">
+                <div>  
+                    <h1>Read the case study</h1>
+                    <h2>TableShop</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda id, labore quos deleniti minima recusandae accusantium error repellat alias rem cumque fuga fugiat quaerat ex officiis reprehenderit aliquid ea repudiandae.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--fin section imagen y texto-->
+
  <!--two section-->
  <section id="two-section">
      <div class="container-fluid">
          <div class="row">
-             <div class="col-md-6 apartado-uno">
-                <div class="row">
-                    <div class="col-md-12 txt-rotate">
-                            <span>HOLA</span>
-                            <span>Mundo</span>
-                            <span>COMO ESTAS</span>
+             <div class="col-md-6 ">
+                 <div class="apartado-uno ">
+                        <div class="txt-rotateuno">
+                                <h1>Licenciaturas</h1>
+                                <hr class="linea">
+                            </div>
+                            <div class="txt-rotateuno-o">
+                                <p>
+                                    Los programas de licenciaturas de FGU ofrecen diferentes carreras para ayudarle a alcanzar sus metas profesionales.
+                                </p>
+                            </div>
+                            <button type="button" class="btn btn-primary">ver más</button>
+                 </div>
+             </div>
+             <div class="col-md-6 ">
+                <div class="apartado_dos">
+                    <div class="txt-rotatedos">
+                        <h1>Maestrías</h1>
+                        <hr class="linea">
                     </div>
-                    <div class="col-md-8 txt-rotateuno">
-                        <h1>
-                            We Maintain Best & Optimum Results
-                        </h1>
-                        <p class="txt-rotateuno-o">
-                                Mollit anim idm est laborum sed ut perspiciatis unde omniste voluptate macsit cusa ntium doloremque laudantium totam nc labore dolore magna aliquat enim ad minim veniam quis nost rcitation ullamco laboris aliquip consequat.
+                    <div class="txt-rotateuno-dos">
+                        <p>
+                            La formación que adquirirá a nivel de maestría le dará herramientas para producir cambios y sobresalir en cualquier empresa o proyecto personal.
                         </p>
                     </div>
+                    <button type="button" class="btn btn-primary">ver más</button>
                 </div>
              </div>
-             <div class="col-md-6 apartado_dos">
-                <div>
-                    <ul>
-                        <li>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <p> <span><i class="fas fa-address-book"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti vitae ipsa, consequuntur quae s</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                                <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <p> <span><i class="fas fa-address-book"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti vitae ipsa, consequuntur quae s</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                        </li>
-                        <li>
-                                <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <p> <span><i class="fas fa-address-book"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti vitae ipsa, consequuntur quae s</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                        </li>
-                        <li>
-                                <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <p> <span><i class="fas fa-address-book"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti vitae ipsa, consequuntur quae s</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                        </li>
-                        <li>
-                                <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <p> <span><i class="fas fa-address-book"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti vitae ipsa, consequuntur quae s</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                        </li>
-                    </ul>
-                </div>
              </div>
          </div>
      </div>
  </section>
  <!--end two section-->
+
+<section id="formulario">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+                    <form>
+                        <h2>Contacto</h2>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputEmail4">Nombre</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Nombre">
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputPassword4">Teléfono</label>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Teléfono">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputAddress">Correo</label>
+                              <input type="text" class="form-control" id="inputAddress" placeholder="Correo">
+                            </div>
+                            <div>
+                                <label for="validationTextarea">Textarea</label>
+                                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Escribe aquí un mensaje." required></textarea>
+                                <div class="invalid-feedback">
+                                    Por favor, introduzca un mensaje en el área de texto.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                          </form>
+            </div>
+        </div>
+    </div>
+</section>
+
 </body>
 <script src="css/js/bootstrap.js"></script>
 <script src="css/js/bootstrap.min.js"></script>
