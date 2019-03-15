@@ -461,9 +461,19 @@ footer .content-line {
     #oferta .carreras .fas {
       color: white; }
     #oferta .carreras ul {
-      color: white; }
+      color: white;
+      padding: 0px 20px; }
       #oferta .carreras ul li {
         color: white; }
+    #oferta .carreras .oac::after {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 1px;
+      background-color: white;
+      display: block;
+      margin-top: 10px;
+      left: 80px; }
 
 * {
   margin: 0;
