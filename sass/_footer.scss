@@ -1,0 +1,80 @@
+#foter-redes
+{
+    height: 100%;
+    background-color:#001f5b;
+    position: relative;
+    ul 
+    {
+        list-style: none;
+        margin: 5px;
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    a 
+    {
+        list-style: none;
+        margin: 5px;
+        margin-top: 0px;
+    }
+    img
+    {
+        margin-left:1px;
+        padding: 20px 0px 10px;
+    }
+    li 
+    {
+        margin-left: 0px;
+        margin-top: 0px;
+        color: white;
+        font-size: 14px;
+        padding: 10px 0px; 
+    }
+    .fuente-icono
+    {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        font-size: 24px;
+        color: white;
+        padding: 3px 0px;
+    }
+
+    .fuente-icono:hover
+    {
+        color:#001f5b;
+        background-color:white;
+    }
+
+    .fuente-icono-y
+    {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        background-color: #001f5b ;
+        margin: 10px;
+        border-radius: 50%;
+        display: inline-block;
+        font-size: 24px;
+        color: white;
+        padding: 3px 0px;
+    }
+    .fuente-icono-y:hover
+    {
+        color:#001f5b;
+        background-color:white;
+    }
+   
+}
+
+footer{
+    .content-line
+    {
+        width: 100%;
+        height: 8px;
+        background-color:#005cb9;
+    }
+}
