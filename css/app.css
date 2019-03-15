@@ -146,72 +146,6 @@
 /*--------------------
         two section
 ------------------------*/
-/*-------------------------
-        contacto
----------------------------*/
-#formulario {
-  background-image: url(../img/bg-x2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  height: 600px;
-  position: relative; }
-  #formulario form {
-    border: 5px solid white;
-    padding: 20px 20px;
-    margin-top: 50px; }
-    #formulario form h2 {
-      color: white;
-      padding: 30px 0px;
-      text-align: left; }
-    #formulario form h2::after {
-      content: "";
-      position: absolute;
-      width: 31px;
-      height: 1px;
-      background-color: white;
-      display: block;
-      margin-left: 135px; }
-    #formulario form label {
-      color: white; }
-    #formulario form input {
-      border: none;
-      background-color: transparent;
-      color: white;
-      border-bottom: 1px solid white; }
-    #formulario form textarea {
-      border: none;
-      background-color: transparent;
-      color: white;
-      border-bottom: 1px solid white; }
-    #formulario form .invalid-feedback {
-      color: white; }
-    #formulario form ::-webkit-input-placeholder {
-      color: #001f5b; }
-    #formulario form :-ms-input-placeholder {
-      color: #001f5b; }
-    #formulario form ::-ms-input-placeholder {
-      color: #001f5b; }
-    #formulario form ::placeholder {
-      color: #001f5b; }
-    #formulario form .btn-primary {
-      border: 1px solid white;
-      display: block;
-      margin: 0 auto;
-      margin-top: 20px;
-      margin-bottom: 30px;
-      color: white;
-      background-color: transparent; }
-    #formulario form .btn-primary:hover {
-      border: 1px solid #005cb9;
-      color: #005cb9;
-      background-color: white; }
-
-/*-------------------------
-    fin contacto
----------------------------*/
 /*---------------------------
         transmicion
 ------------------------------*/
@@ -376,6 +310,160 @@ footer .content-line {
   width: 100%;
   height: 8px;
   background-color: #005cb9; }
+
+/*-------------------------
+        contacto
+---------------------------*/
+#formulario {
+  background-image: url(../img/bg-x2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative; }
+  #formulario form {
+    border: 5px solid white;
+    padding: 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 30px; }
+    #formulario form h2 {
+      color: white;
+      padding: 30px 0px;
+      text-align: left; }
+    #formulario form h2::after {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 1px;
+      background-color: white;
+      display: block;
+      margin-left: 135px; }
+    #formulario form label {
+      color: white; }
+    #formulario form input {
+      border: none;
+      background-color: transparent;
+      color: white;
+      border-bottom: 1px solid white; }
+    #formulario form textarea {
+      border: none;
+      background-color: transparent;
+      color: white;
+      border-bottom: 1px solid white; }
+    #formulario form .invalid-feedback {
+      color: white; }
+    #formulario form ::-webkit-input-placeholder {
+      color: #001f5b; }
+    #formulario form :-ms-input-placeholder {
+      color: #001f5b; }
+    #formulario form ::-ms-input-placeholder {
+      color: #001f5b; }
+    #formulario form ::placeholder {
+      color: #001f5b; }
+    #formulario form .btn-primary {
+      border: 1px solid white;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      color: white;
+      background-color: transparent; }
+    #formulario form .btn-primary:hover {
+      border: 1px solid #005cb9;
+      color: #005cb9;
+      background-color: white; }
+  #formulario .info-contacto {
+    margin-top: 50px; }
+    #formulario .info-contacto h2 {
+      color: white;
+      margin-top: 30px;
+      font-weight: 100;
+      font-size: 24px; }
+    #formulario .info-contacto h2::before {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 1px;
+      background-color: white;
+      margin-left: 0;
+      top: 10px; }
+    #formulario .info-contacto p {
+      color: white;
+      font-size: 16px;
+      font-weight: 100; }
+    #formulario .info-contacto .fas {
+      font-size: 14px;
+      padding: 10px; }
+    #formulario .info-contacto .contacto-redes {
+      padding-top: 50px; }
+      #formulario .info-contacto .contacto-redes .titulo-re {
+        color: white;
+        font-weight: 100; }
+      #formulario .info-contacto .contacto-redes .titulo-re::after {
+        content: "";
+        position: relative;
+        width: 31px;
+        height: 1px;
+        background-color: red;
+        margin-left: 0;
+        top: 0px; }
+      #formulario .info-contacto .contacto-redes ul {
+        text-decoration: none;
+        margin-top: 20px; }
+        #formulario .info-contacto .contacto-redes ul li {
+          color: white;
+          list-style: none;
+          display: inline;
+          padding: 0 10px; }
+
+/*-------------------------
+    fin contacto
+---------------------------*/
+#oferta {
+  background-image: url(../img/bg-x2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative; }
+  #oferta .academica {
+    border: 10px solid white;
+    padding: 50px 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%; }
+    #oferta .academica h1 {
+      color: white;
+      text-align: center;
+      font-weight: 100; }
+    #oferta .academica .txt-academica {
+      width: 80%;
+      padding: 30px; }
+      #oferta .academica .txt-academica p {
+        color: white; }
+  #oferta .carreras {
+    margin-top: 50px;
+    padding: 0px 30px; }
+    #oferta .carreras h5 {
+      color: white;
+      font-weight: 100;
+      padding: 30px; }
+    #oferta .carreras h5::after {
+      content: "";
+      position: absolute;
+      width: 31px;
+      height: 1px;
+      background-color: white;
+      display: block;
+      top: 50px; }
+    #oferta .carreras .fas {
+      color: white; }
+    #oferta .carreras ul {
+      color: white; }
+      #oferta .carreras ul li {
+        color: white; }
 
 * {
   margin: 0;

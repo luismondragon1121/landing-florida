@@ -1,0 +1,146 @@
+/*-------------------------
+        contacto
+---------------------------*/
+#formulario
+{
+    background-image: url(../img/bg-x2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    position: relative;
+    form 
+    {
+        border: 5px solid white;
+        padding: 20px 20px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        h2 
+        {
+            color: white;
+            padding: 30px 0px;
+            text-align: left;
+        }
+        h2::after
+        {
+            content: "";
+            position: absolute;
+            width: 31px;
+            height: 1px;
+            background-color: white;
+            display: block;
+            margin-left: 135px;
+        }
+        label 
+        {
+            color: white;
+        }
+        input 
+        {
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        textarea
+        {
+            border: none;
+            background-color: transparent;
+            color: white;
+            border-bottom: 1px solid white;
+        }
+        .invalid-feedback
+        {
+            color: white;
+        }
+        ::placeholder 
+        { 
+            color: #001f5b; 
+        }
+           .btn-primary
+        {
+            border: 1px solid white;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            color: white;
+            background-color: transparent;
+        }
+        .btn-primary:hover
+        {
+            border: 1px solid #005cb9;
+            color: #005cb9;
+            background-color: white;
+        }
+       
+    }
+    .info-contacto
+    {
+        margin-top: 50px;
+        h2 
+        {
+            color: white;
+            margin-top: 30px;
+            font-weight: 100;
+            font-size: 24px;
+        }
+        h2::before
+        {
+            content: "";
+            position: absolute;
+            width: 31px;
+            height: 1px;
+            background-color: white;
+            margin-left: 0;
+            top: 10px;
+        }
+        p 
+        {
+            color: white;
+            font-size: 16px;
+            font-weight: 100;
+        }
+        .fas 
+        {
+            font-size: 14px;
+            padding: 10px;
+        }
+        .contacto-redes
+        {
+            padding-top: 50px;
+            .titulo-re
+            {
+                color:white;
+                font-weight: 100;
+            }
+            .titulo-re::after
+            {
+                content: "";
+                position:relative;
+                width: 31px;
+                height: 1px;
+                background-color: red;
+                margin-left: 0;
+                top: 0px;
+            }
+            ul 
+            {
+                text-decoration: none;
+                margin-top: 20px;
+                li 
+                {
+                    color: white;
+                    list-style: none;
+                    display: inline;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+
+/*-------------------------
+    fin contacto
+---------------------------*/
