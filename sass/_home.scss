@@ -14,19 +14,27 @@
     width: 100%;
     height: 600px;;
     position: relative;
-    p
+    .content-title
     {
         text-align: center;
         font-size: 30px;
-        font-family: 'Poppins', sans-serif;
         font-weight: bold;
         padding-top: 40px;
         padding: 100px 20px 100px;
         position: relative;
         color: white;
         margin: 0 auto;
-        border: 1px solid white;
+        border: 3px solid white;
         margin-top: 80px;
+
+        h2{
+            font-weight: bold;
+            font-size: 35px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 100;
+        }
     }
 }
 
@@ -79,7 +87,7 @@
 /*-----------------------
     seccion imagen texto
 -------------------------*/
-#img-txt
+#congress_valors
 {
     position: relative;
     background-color: white;
@@ -93,6 +101,9 @@
         text-align: left;
         margin-right: -56px;
         max-width: 455px;
+        h1{
+            font-size: 30px;
+        }
         h2 
         {
             color: #00ABCC;
@@ -217,6 +228,7 @@
     background-color: #f4f4f4;
     position: relative;
     margin:0 auto;
+    padding: 100px 0px;
     img 
     {
         width: 100%;
@@ -229,8 +241,9 @@
         {
             text-align: left;
             padding: 10px 0px;
-            font-weight: normal;
+            font-weight: 100;
             margin-top: 10px;
+            font-size: 25px;
         }
         h2::before
         {
@@ -246,6 +259,7 @@
         {
             text-align: left;
             padding: 10px 0px;
+            font-weight: bold;
         }
         p 
         {

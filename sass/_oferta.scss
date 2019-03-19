@@ -1,4 +1,4 @@
-#oferta
+#oferta_educativa
 {
     background-image: url(../img/bg-x2.jpg);
     background-position: center;
@@ -7,6 +7,7 @@
     width: 100%;
     height: auto;
     position: relative;
+    padding: 100px 0px;
     .academica
     {
         border: 10px solid white;
@@ -27,6 +28,17 @@
             padding:30px;
             p 
             {
+                color: white;
+            }
+            h2{
+
+                font-size: 20px;
+                text-align: center;
+                color: white;
+                margin-top: 30px;
+            }
+            ul{
+                padding-left: 20px;
                 color: white;
             }
         }

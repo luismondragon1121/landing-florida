@@ -11,18 +11,23 @@
   width: 100%;
   height: 600px;
   position: relative; }
-  #parallax-inicio p {
+  #parallax-inicio .content-title {
     text-align: center;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     padding-top: 40px;
     padding: 100px 20px 100px;
     position: relative;
     color: white;
     margin: 0 auto;
-    border: 1px solid white;
+    border: 3px solid white;
     margin-top: 80px; }
+    #parallax-inicio .content-title h2 {
+      font-weight: bold;
+      font-size: 35px; }
+    #parallax-inicio .content-title p {
+      font-size: 18px;
+      font-weight: 100; }
 
 /*-------------------
  cuatro secciones
@@ -56,20 +61,22 @@
 /*-----------------------
     seccion imagen texto
 -------------------------*/
-#img-txt {
+#congress_valors {
   position: relative;
   background-color: white; }
-  #img-txt .slider-img {
+  #congress_valors .slider-img {
     padding: 100px 30px; }
-  #img-txt .slider-txt {
+  #congress_valors .slider-txt {
     padding: 100px 0px;
     text-align: left;
     margin-right: -56px;
     max-width: 455px; }
-    #img-txt .slider-txt h2 {
+    #congress_valors .slider-txt h1 {
+      font-size: 30px; }
+    #congress_valors .slider-txt h2 {
       color: #00ABCC;
       padding-bottom: 10px; }
-    #img-txt .slider-txt h2::after {
+    #congress_valors .slider-txt h2::after {
       content: "";
       position: absolute;
       width: 31px;
@@ -77,7 +84,7 @@
       background-color: #00ABCC;
       display: block;
       margin-left: 149px; }
-    #img-txt .slider-txt p {
+    #congress_valors .slider-txt p {
       text-align: justify; }
 
 /*---------------------------
@@ -152,7 +159,8 @@
 #transmicion {
   background-color: #f4f4f4;
   position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 100px 0px; }
   #transmicion img {
     width: 100%;
     height: 100%; }
@@ -161,8 +169,9 @@
     #transmicion .txt-transmicion h2 {
       text-align: left;
       padding: 10px 0px;
-      font-weight: normal;
-      margin-top: 10px; }
+      font-weight: 100;
+      margin-top: 10px;
+      font-size: 25px; }
     #transmicion .txt-transmicion h2::before {
       content: "";
       position: absolute;
@@ -173,7 +182,8 @@
       top: 40px; }
     #transmicion .txt-transmicion h1 {
       text-align: left;
-      padding: 10px 0px; }
+      padding: 10px 0px;
+      font-weight: bold; }
     #transmicion .txt-transmicion p {
       padding: 10px; }
     #transmicion .txt-transmicion .btn-primary {
@@ -420,37 +430,46 @@ footer .content-line {
 /*-------------------------
     fin contacto
 ---------------------------*/
-#oferta {
+#oferta_educativa {
   background-image: url(../img/bg-x2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: auto;
-  position: relative; }
-  #oferta .academica {
+  position: relative;
+  padding: 100px 0px; }
+  #oferta_educativa .academica {
     border: 10px solid white;
     padding: 50px 0px;
     margin-top: 30px;
     margin-bottom: 50px;
     width: 100%; }
-    #oferta .academica h1 {
+    #oferta_educativa .academica h1 {
       color: white;
       text-align: center;
       font-weight: 100; }
-    #oferta .academica .txt-academica {
+    #oferta_educativa .academica .txt-academica {
       width: 80%;
       padding: 30px; }
-      #oferta .academica .txt-academica p {
+      #oferta_educativa .academica .txt-academica p {
         color: white; }
-  #oferta .carreras {
+      #oferta_educativa .academica .txt-academica h2 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        margin-top: 30px; }
+      #oferta_educativa .academica .txt-academica ul {
+        padding-left: 20px;
+        color: white; }
+  #oferta_educativa .carreras {
     margin-top: 50px;
     padding: 0px 30px; }
-    #oferta .carreras h5 {
+    #oferta_educativa .carreras h5 {
       color: white;
       font-weight: 100;
       padding: 30px; }
-    #oferta .carreras h5::after {
+    #oferta_educativa .carreras h5::after {
       content: "";
       position: absolute;
       width: 31px;
@@ -458,14 +477,14 @@ footer .content-line {
       background-color: white;
       display: block;
       top: 50px; }
-    #oferta .carreras .fas {
+    #oferta_educativa .carreras .fas {
       color: white; }
-    #oferta .carreras ul {
+    #oferta_educativa .carreras ul {
       color: white;
       padding: 0px 20px; }
-      #oferta .carreras ul li {
+      #oferta_educativa .carreras ul li {
         color: white; }
-    #oferta .carreras .oac::after {
+    #oferta_educativa .carreras .oac::after {
       content: "";
       position: absolute;
       width: 31px;
@@ -478,3 +497,6 @@ footer .content-line {
 * {
   margin: 0;
   padding: 0; }
+
+body {
+  font-family: "Raleway", sans-serif !important; }
